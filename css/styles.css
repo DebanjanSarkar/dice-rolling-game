@@ -18,7 +18,7 @@ h1{
 
 /* Class Selectors */
 .heading{
-  margin: 40px;
+  margin: 40px 40px 20px 40px;
 }
 
 .heading hr{
@@ -45,7 +45,7 @@ h1{
   color: #FFB562;
   text-align: center;
   font-size: 2rem;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   padding: 10px 20px;
   border-radius: 10%;
@@ -96,7 +96,7 @@ h1{
 
 .roll-btn{
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   display: flex;
   justify-content: center;
@@ -121,6 +121,14 @@ h1{
   background-color: #FFB562;
   box-shadow: 4px 4px 4px 3px black;
   transform: translate(-2px,-2px);
+}
+
+.acknowledgement{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Almendra Display', "cursive";
+  font-size: 1.5rem;
+  color: #fff;
 }
 
 /* ID Selectors */
