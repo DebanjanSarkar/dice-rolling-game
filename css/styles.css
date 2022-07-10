@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tag Selectors */
+body{
+  font-family: 'Sedgwick Ave Display', cursive;
+  background-color: #4C3A51;
+}
+
+h1{
+  color: #E7AB79;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Class Selectors */
+.heading{
+  margin: 40px;
+}
+
+.heading hr{
+  border: 3px outset #E7AB79;
+  width: 60%;
+  margin: auto;
+}
+
+.game-area{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.player1 , .player2{
+  margin: 20px 30px;
+}
+
+.player-name{
+  font-family: 'Almendra Display', "cursive";
+  font-weight: bold;
+  color: #FFB562;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 10%;
+
+  transition: all 300ms ease-in;
+
+  animation: camellion 5s infinite;
+}
+
+@keyframes camellion{
+  10%{
+    color: red;
+  }
+  20%{
+    color: green;
+  }
+  30%{
+    color: blue;
+  }
+  40%{
+    color: yellow;
+  }
+  50%{
+    color: white;
+  }
+  60%{
+    color: orange;
+  }
+  70%{
+    color: cyan;
+  }
+  80%{
+    color: magenta;
+  }
+  90%{
+    color: #5FD068;
+  }
+  100%{
+    color: #A760FF;
+  }
+}
+
+.player-name:hover{
+  text-shadow: 0 0 3px #fff;
+  box-shadow: 0 0 3px 3px rgba(0,0,0,0.5), inset 0 0 15px 2px #B25068;
+  cursor: pointer;
+}
+
+.roll-btn{
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.roll-btn button{
+  background-color: #E7AB79;
+  font-family: 'Sedgwick Ave Display', "cursive";
+  font-size: 2rem;
+  padding: 10px 40px 5px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 4px 4px 0 1px black;
+
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.roll-btn button:hover{
+  background-color: #FFB562;
+  box-shadow: 4px 4px 4px 3px black;
+  transform: translate(-2px,-2px);
+}
+
+/* ID Selectors */

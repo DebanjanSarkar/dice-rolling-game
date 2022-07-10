@@ -1,0 +1,148 @@
+.dice1, .dice2, .dice3, .dice4, .dice5, .dice6{
+  height: 250px;
+  width: 250px;
+  background-color: #c41218;
+  border: 2px solid black;
+  border-radius: 15px;
+
+  display: none;
+  position: relative;
+}
+
+.visible{
+  display: block;
+}
+
+.dot{
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.dot11{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.dot21{
+  position: absolute;
+  top: 40px;
+  left: 160px;
+}
+
+.dot22{
+  position: absolute;
+  bottom: 40px;
+  right: 160px;
+}
+
+.dot31{
+  position: absolute;
+  top: 40px;
+  left: 160px;
+}
+
+.dot32{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.dot33{
+  position: absolute;
+  bottom: 40px;
+  right: 160px;
+}
+
+.dot41{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.dot42{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.dot43{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.dot44{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.dot51{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.dot52{
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.dot53{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.dot54{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.dot55{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.dot61{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.dot62{
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+.dot63{
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+.dot64{
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.dot65{
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+
+.dot66{
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
